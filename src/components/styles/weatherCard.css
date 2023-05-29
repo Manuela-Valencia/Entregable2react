@@ -1,0 +1,128 @@
+.weather {
+    padding: 2.5em 2em 3.5em;
+    border-radius: .8em;
+    width: 100%;
+    max-width: 400px;
+    background-size: cover;
+    color: #fff;
+    background-color: transparent;
+    box-shadow: 0 0 0 5px #000
+}
+
+.weather-header {
+    margin-bottom: 2em
+}
+
+.weather-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700
+}
+
+.weather-subtitle {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700
+}
+
+.weather-body {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1em;
+    margin-bottom: 1.5em;
+    background-color: #01010181;
+    border-radius: 1rem;
+    padding: .5rem;
+    text-align: center
+}
+
+.weather-img-container {
+    animation: placeholderAnimation 2s infinite;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0 0 8px rgba(255,255,255,.638))
+}
+
+.weather-info-title {
+    text-align: center;
+    margin-bottom: .8em;
+    font-size: 1.1rem;
+    font-weight: 700
+}
+
+.weather-list {
+    display: grid;
+    gap: .7em
+}
+
+.weather-list-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: .9rem
+}
+
+.weather-list-label {
+    opacity: .7
+}
+
+.weather-list-value {
+    font-weight: 900
+}
+
+.weather-temp {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: .6em
+}
+
+.weather-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    padding: .5em 1em;
+    border-radius: .7em;
+    cursor: pointer;
+    background-color: #00000081;
+    color: #fff;
+    font-size: 1rem
+}
+
+.weather_btn:hover {
+    background-color: #000000b3
+}
+
+.weather-ahora {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: .6em;
+    color: #000
+}
+
+
+@keyframes rotation {
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+img {
+    display: block;
+    width: 100%
+}
+
+.font {
+    font-family: Lato,sans-serif
+}
+
+.font-to {
+    font-family: Open Sans,sans-serif
+}
+
+ul {
+    list-style-type: none
+}

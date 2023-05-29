@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'fira Sans' sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+input , button {
+    font-family: inherit
+}
+
+button{
+    border: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+article{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f2f2f2;
+    }
+
