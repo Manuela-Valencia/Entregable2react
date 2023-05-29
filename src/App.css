@@ -16,3 +16,19 @@
   font-size: 1.6rem;
   padding: 1rem;
  }
+
+ .loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  animation: loader 1.8s linear infinite;
+  transition: ease-in .4s;
+ }
+
+ .loading :hover {
+  transform: scale(2.5);
+}
